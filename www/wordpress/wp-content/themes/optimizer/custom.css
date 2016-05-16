@@ -1,0 +1,331 @@
+.logo h1 a,
+#topmenu ul li a,
+body{
+	font-family: FuturaLight;
+}
+
+
+#stat_img{
+    background-position: center bottom;
+    position: relative;
+    overflow: hidden;
+    padding: 60px 0 0;
+
+}
+
+.stat_has_img .stat_content_inner{
+    z-index : 100;
+}
+
+.desc-wrapper {
+    -webkit-animation: feature-text-anim .75s ease-in-out;
+    animation: feature-text-anim .75s ease-in-out;
+    position: relative;
+    width: 100%;
+    max-width: 956px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 32px;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+}
+
+.desc-wrapper p {
+    font-family: "FuturaLight";
+    font-size: 28px;
+    line-height: 1.3em;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 300;
+    font-style: normal;
+    color: #9c9999;
+    margin: 20px auto;
+    -webkit-transform: translatez(0);
+}
+
+.desc-wrapper .title{
+    font-color : #fff;
+}
+
+.desc-wrapper .description{
+    display: block;
+    font-family: FuturaLight;
+    font-size: 86px;
+    line-height: 1.1em;
+    text-transform: none;
+    letter-spacing: 0px;
+    font-weight: 300;
+    font-style: normal;
+    color: #fff;
+}
+
+.desc-wrapper a{
+        box-sizing: border-box;
+        border: 2px solid #9c9999 !important;
+        color: #9c9999;
+        font-family: FuturaLight;
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 400;
+        font-style: normal;
+        text-decoration: none;
+        padding: 1em 1.75em;
+        display: inline-block;
+        line-height: 1em;
+        margin: 10px 0;
+        -webkit-transition: background-color .1s 0s ease-in-out,color .1s 0s ease-in-out;
+        -moz-transition: background-color .1s 0s ease-in-out,color .1s 0s ease-in-out;
+        -ms-transition: background-color .1s 0s ease-in-out,color .1s 0s ease-in-out;
+        -o-transition: background-color .1s 0s ease-in-out,color .1s 0s ease-in-out;
+        transition: background-color .1s 0s ease-in-out,color .1s 0s ease-in-out;
+}
+
+.desc-wrapper a:hover{
+    background-color: #9c9999;
+    color : #181818;
+}
+
+.stat_content_inner{
+    bottom : 20%;
+}
+
+ .color-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(32,26,22,.7);
+    z-index: 50;
+}
+
+.home.has_trans_header.page .header{
+    background : transparent !important;
+}
+
+.center{
+    margin : 0 auto 0 auto;
+    width : 90%;
+}
+
+div.fadein{
+    margin-left : -300px;
+    margin-top : 100px;
+    opacity : 0;
+    -webkit-transition: opacity .2s ease,margin-left .2s ease;
+    -moz-transition: opacity .2s ease;
+    -o-transition: opacity .2s ease;
+    transition: opacity .2s ease,margin-left .2s ease;
+}
+
+div.fadein:nth-of-type(even){
+    margin-left : 0;
+    margin-right : -300px;
+    -webkit-transition: margin-right .5s ease;
+    -moz-transition: margin-right .5s ease;
+    -o-transition: margin-right .5s ease;
+    transition: margin-right .5s ease;
+}
+
+div.faded{
+    opacity : 1;
+    
+    margin-left : 0px;
+    margin-right : 0px;
+}
+
+.intro{
+    margin-top : 50px;
+    text-align: center;
+    color : #1c1c1c;   
+    font-family: FuturaLight;
+    font-size: 42px;
+    line-height: 1.2em;
+    text-transform: none;
+    letter-spacing: 0px;
+    font-weight: 300;
+    font-style: normal;  
+}
+
+.intro h1{
+    font-size: 42px;
+    line-height: 1.2em;
+}
+
+.fadein .widget-title,
+.fadein .textwidget{
+    color: #404040;
+    font-family: FuturaLight;
+}
+
+.page_head{
+    display: none; 
+    height : 0;
+}
+
+.page-id-33 .center{
+    width : 100%;
+    margin : 0 0 0 0;
+}
+
+.page-id-33 .single_post{
+    padding : 0px;
+}
+
+.page-id-33 .menu-header{
+    background-color: #23282D;
+}
+
+.page-id-33 #topmenu{
+    margin-top: 0px;
+}
+
+.page-id-33 #content{
+    margin-top : 0px;
+}
+
+.page-id-33 .thn_post_wrap{
+    line-height: 0px;
+}
+
+.page-id-33 #pg-33-0{
+    margin-bottom : 0px;
+}
+
+.work_header{
+    margin-left : 0px !important;
+    margin-right : 0px !important;
+    padding-left : 0px !important;
+    padding-right : 0px !important;
+    min-height : 400px;
+}
+
+.work_header .sow-headline {
+    padding-top : 100px;
+}
+
+.work_header .textwidget{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(32,26,22,.7);
+    visibility: hidden;
+}
+
+.work_header.first_work_header h1,
+.wd-charateristics-header h3{
+    margin-top : 0px;
+    font-family: "FuturaLight";
+    font-size: 28px;
+    line-height: 1.3em;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 300;
+    font-style: normal;
+    color: #FFFFFF !important;
+    margin: 20px auto;
+    -webkit-transform: translatez(0);
+    z-index : 50;
+}
+
+.work_header.first_work_header h3{
+    font-family: "FuturaLight";
+    letter-spacing: 4px;
+    font-weight: 300;
+    font-style: normal;
+    color: #FFFFFF !important;
+    -webkit-transform: translatez(0);
+    z-index : 50;
+}   
+
+.mobile-icon{
+    fill : #9c9999;
+    margin : 0 auto 0 auto;
+}
+
+.row_rounds{
+    margin-top : 50px;
+}
+
+.sow-features-feature .textwidget h5{
+    color: #404040;
+    font-family: FuturaLight;
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    
+}
+
+.webd_yourway_img img{
+    -webkit-transition: opacity .5s  ease,z-index .5s ease;
+    -moz-transition: opacity .5s ease,z-index .5s ease;
+    -moz-transition: opacity .5s ease,z-index .5s ease;
+    -ms-transition: opacity .5s ease,z-index .5s ease;
+    -o-transition: opacity .5s ease,z-index .5s ease;
+    transition: opacity .5s  ease,z-index .5s ease;
+    float : left;
+    position: absolute;
+
+    z-index : 100;
+}
+
+.webd_yourway_img img:hover{
+    opacity : .3;
+    z-index : 0;
+}
+
+.webdv_yourway_desc{
+    float : left;
+    position: absolute;
+
+    top : 30%;
+    left : 0;
+    right : 0;
+    bottom : 0;
+    height : 100%;
+}
+
+.webdv_yourway_desc h3{
+    color: #404040;
+    font-family: FuturaLight;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+.webdv_yourway_desc div{
+    /*height : 100px;*/
+    color: #404040;
+    font-family: FuturaLight;
+    display: block;
+    line-height : 20px;
+    margin : 10px 10px 10px 10px;
+}
+
+.webdv_yourway_cell{
+    position : relative;
+    height : 100%;
+}
+
+.wedv_yourway_table{
+    height : 284.89px;
+}
+
+.wedv_yourway_table .panel-grid-cell{
+    height : 100%;
+}
+
+.webdv_yourway_intro h1{
+    font-family : FuturaLight;
+    font-size: 32px;
+    line-height: 1.2em;
+    text-transform: none;
+    letter-spacing: 0px;
+    font-weight: 300;
+    font-style: normal;
+}
